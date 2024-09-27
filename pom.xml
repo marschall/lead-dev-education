@@ -46,6 +46,7 @@
   
   <modules>
     <module>lead-dev-education-layout</module>
+    <module>lead-dev-education-jfr</module>
   </modules>
 
   <build>
@@ -126,6 +127,13 @@
         <groupId>org.junit</groupId>
         <artifactId>junit-bom</artifactId>
         <version>5.11.0</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-framework-bom</artifactId>
+        <version>6.1.13</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
