@@ -1,13 +1,12 @@
 package com.netcetera.leaddevedu.jfr;
 
 import jdk.jfr.Category;
+import jdk.jfr.DataAmount;
 import jdk.jfr.Description;
 import jdk.jfr.Event;
 import jdk.jfr.Label;
-import jdk.jfr.Timestamp;
 import jdk.jfr.Timespan;
-import jdk.jfr.Label;
-import jdk.jfr.DataAmount;
+import jdk.jfr.Timestamp;
 
 @Label("JDBC Operation")
 @Description("A JDBC Operation")
