@@ -48,6 +48,7 @@
     <module>lead-dev-education-layout</module>
     <module>lead-dev-education-jfr</module>
     <module>lead-dev-education-load</module>
+    <module>lead-dev-education-heap</module>
   </modules>
 
   <build>
